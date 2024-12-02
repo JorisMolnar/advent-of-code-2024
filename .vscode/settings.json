@@ -1,0 +1,8 @@
+{
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "standard.autoFixOnSave": true,
+    "standard.engine": "ts-standard",
+    "standard.workingDirectories": [
+        "."
+    ],
+}

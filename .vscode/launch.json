@@ -1,0 +1,708 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Day1A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day1a/app.ts",
+            "preLaunchTask": "tsc: build - day1a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day1B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day1b/app.ts",
+            "preLaunchTask": "tsc: build - day1b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day2A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day2a/app.ts",
+            "preLaunchTask": "tsc: build - day2a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day2B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day2b/app.ts",
+            "preLaunchTask": "tsc: build - day2b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day3A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day3a/app.ts",
+            "preLaunchTask": "tsc: build - day3a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day3B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day3b/app.ts",
+            "preLaunchTask": "tsc: build - day3b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day4A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day4a/app.ts",
+            "preLaunchTask": "tsc: build - day4a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day4B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day4b/app.ts",
+            "preLaunchTask": "tsc: build - day4b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day5A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day5a/app.ts",
+            "preLaunchTask": "tsc: build - day5a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day5B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day5b/app.ts",
+            "preLaunchTask": "tsc: build - day5b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day6A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day6a/app.ts",
+            "preLaunchTask": "tsc: build - day6a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day6B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day6b/app.ts",
+            "preLaunchTask": "tsc: build - day6b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day7A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day7a/app.ts",
+            "preLaunchTask": "tsc: build - day7a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day7B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day7b/app.ts",
+            "preLaunchTask": "tsc: build - day7b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day8A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day8a/app.ts",
+            "preLaunchTask": "tsc: build - day8a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day8B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day8b/app.ts",
+            "preLaunchTask": "tsc: build - day8b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day9A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day9a/app.ts",
+            "preLaunchTask": "tsc: build - day9a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day9B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day9b/app.ts",
+            "preLaunchTask": "tsc: build - day9b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day10A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day10a/app.ts",
+            "preLaunchTask": "tsc: build - day10a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day10B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day10b/app.ts",
+            "preLaunchTask": "tsc: build - day10b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day11A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day11a/app.ts",
+            "preLaunchTask": "tsc: build - day11a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day11B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day11b/app.ts",
+            "preLaunchTask": "tsc: build - day11b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day12A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day12a/app.ts",
+            "preLaunchTask": "tsc: build - day12a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day12B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day12b/app.ts",
+            "preLaunchTask": "tsc: build - day12b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day13A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day13a/app.ts",
+            "preLaunchTask": "tsc: build - day13a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day13B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day13b/app.ts",
+            "preLaunchTask": "tsc: build - day13b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day14A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day14a/app.ts",
+            "preLaunchTask": "tsc: build - day14a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day14B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day14b/app.ts",
+            "preLaunchTask": "tsc: build - day14b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day15A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day15a/app.ts",
+            "preLaunchTask": "tsc: build - day15a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day15B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day15b/app.ts",
+            "preLaunchTask": "tsc: build - day15b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day16A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day16a/app.ts",
+            "preLaunchTask": "tsc: build - day16a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day16B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day16b/app.ts",
+            "preLaunchTask": "tsc: build - day16b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day17A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day17a/app.ts",
+            "preLaunchTask": "tsc: build - day17a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day17B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day17b/app.ts",
+            "preLaunchTask": "tsc: build - day17b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day18A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day18a/app.ts",
+            "preLaunchTask": "tsc: build - day18a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day18B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day18b/app.ts",
+            "preLaunchTask": "tsc: build - day18b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day19A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day19a/app.ts",
+            "preLaunchTask": "tsc: build - day19a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day19B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day19b/app.ts",
+            "preLaunchTask": "tsc: build - day19b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day20A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day20a/app.ts",
+            "preLaunchTask": "tsc: build - day20a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day20B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day20b/app.ts",
+            "preLaunchTask": "tsc: build - day20b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day21A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day21a/app.ts",
+            "preLaunchTask": "tsc: build - day21a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day21B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day21b/app.ts",
+            "preLaunchTask": "tsc: build - day21b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day22A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day22a/app.ts",
+            "preLaunchTask": "tsc: build - day22a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day22B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day22b/app.ts",
+            "preLaunchTask": "tsc: build - day22b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day23A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day23a/app.ts",
+            "preLaunchTask": "tsc: build - day23a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day23B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day23b/app.ts",
+            "preLaunchTask": "tsc: build - day23b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day24A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day24a/app.ts",
+            "preLaunchTask": "tsc: build - day24a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day24B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day24b/app.ts",
+            "preLaunchTask": "tsc: build - day24b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day25A",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day25a/app.ts",
+            "preLaunchTask": "tsc: build - day25a/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+        {
+            "name": "Launch Day25B",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/day25b/app.ts",
+            "preLaunchTask": "tsc: build - day25b/tsconfig.json",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+        },
+    ]
+}

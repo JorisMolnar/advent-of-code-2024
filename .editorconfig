@@ -1,0 +1,18 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{js,mjs,ts}]
+indent_size = 2
+
+[input.txt,input-example.txt]
+insert_final_newline = false
+trim_trailing_whitespace = false
